@@ -1,0 +1,128 @@
+{
+  "generated_at": "2026-09-25T10:20:31.566531+00:00",
+  "specification": "Lagos-group IGR elasticity, static 2023 IGR (headline)",
+  "data_file": "estimation_sample_v4.csv",
+  "igr_file": "disco_igr_by_year_v2.csv",
+  "n_observations": 154,
+  "n_discos": 11,
+  "n_periods": 14,
+  "fit": {
+    "neg_log_likelihood": 621.9556155299388,
+    "log_likelihood": -621.9556155299388,
+    "n_multistart_runs": 12,
+    "n_valid_runs": 12,
+    "n_converged_to_reported_optimum": 5,
+    "sigma1": 10.459493624958895,
+    "sigma2": 14.082605459980133
+  },
+  "demand_equation": {
+    "intercept": {
+      "coefficient": -3994.4206519127833,
+      "cluster_robust_se": 6.763342959244186,
+      "t_stat": -590.5985658250821
+    },
+    "log_igr": {
+      "coefficient": 173.04543613557638,
+      "cluster_robust_se": 4.081875603305578,
+      "t_stat": 42.3936084665199
+    },
+    "log_igr_x_lagos": {
+      "coefficient": -2.89788053495568,
+      "cluster_robust_se": 0.11209388979597316,
+      "t_stat": -25.852261351892018
+    },
+    "cos_q": {
+      "coefficient": 17.46955090904242,
+      "cluster_robust_se": 1.1479689481063116,
+      "t_stat": 15.217790461893744
+    },
+    "sin_q": {
+      "coefficient": 74.42772939781752,
+      "cluster_robust_se": 6.108774458618703,
+      "t_stat": 12.18374158384739
+    }
+  },
+  "supply_equation": {
+    "intercept": {
+      "coefficient": 23.723735916144534,
+      "cluster_robust_se": 21.746999875446235,
+      "t_stat": 1.0908969536956756
+    },
+    "pcc": {
+      "coefficient": 0.7357157834401744,
+      "cluster_robust_se": 0.09524906528888273,
+      "t_stat": 7.72412601854735
+    },
+    "avg_paf": {
+      "coefficient": -0.25678471491217686,
+      "cluster_robust_se": 0.5876679185504147,
+      "t_stat": -0.43695547571421134
+    },
+    "cos_q": {
+      "coefficient": 0.05926840967468533,
+      "cluster_robust_se": 1.8618420604807047,
+      "t_stat": 0.03183321020225687
+    },
+    "sin_q": {
+      "coefficient": 1.7272926580598644,
+      "cluster_robust_se": 1.5191516070716526,
+      "t_stat": 1.1370113753092943
+    },
+    "fe_abuja": {
+      "coefficient": 104.92772667625242,
+      "cluster_robust_se": 43.71950235597254,
+      "t_stat": 2.4000210666148676
+    },
+    "fe_benin": {
+      "coefficient": 62.30485956806826,
+      "cluster_robust_se": 20.40157215775015,
+      "t_stat": 3.0539244273093873
+    },
+    "fe_eko": {
+      "coefficient": 96.82706017813875,
+      "cluster_robust_se": 34.344791283226336,
+      "t_stat": 2.8192647723390927
+    },
+    "fe_enugu": {
+      "coefficient": 48.2451493781895,
+      "cluster_robust_se": 19.09883022101937,
+      "t_stat": 2.526078760839128
+    },
+    "fe_ibadan": {
+      "coefficient": 80.42263920749343,
+      "cluster_robust_se": 31.115860908706672,
+      "t_stat": 2.5846188040064804
+    },
+    "fe_ikeja": {
+      "coefficient": 114.31512823051449,
+      "cluster_robust_se": 43.35730513757856,
+      "t_stat": 2.636582874968295
+    },
+    "fe_jos": {
+      "coefficient": 15.046785716075634,
+      "cluster_robust_se": 9.03311195272504,
+      "t_stat": 1.6657366580668178
+    },
+    "fe_kaduna": {
+      "coefficient": 19.93952916436544,
+      "cluster_robust_se": 11.194186887684804,
+      "t_stat": 1.7812396169927942
+    },
+    "fe_kano": {
+      "coefficient": 24.010729582123062,
+      "cluster_robust_se": 11.371188213405805,
+      "t_stat": 2.1115409517024926
+    },
+    "fe_port_harcourt": {
+      "coefficient": 45.93510515339682,
+      "cluster_robust_se": 15.888395924968943,
+      "t_stat": 2.89111030278449
+    }
+  },
+  "headline_results_gw": {
+    "observed_offtake": 3.43,
+    "estimated_demand_ceiling": 5.34,
+    "suppressed_demand_gap": 1.91,
+    "gap_pct_above_observed": 55.7
+  }
+}
